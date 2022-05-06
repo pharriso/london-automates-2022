@@ -1,4 +1,4 @@
-app_environment: dev
+app_environment: london-automates-2022
 ec2_region: eu-west-1
 vpc_name: "automates-{{ app_environment }}-vpc"
 vpc_cidr: 10.10.0.0/16
