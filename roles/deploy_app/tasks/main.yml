@@ -22,3 +22,6 @@
     name: nginx
     state: started
     enabled: true
+
+- debug:
+    msg: Application deployed to {{ inventory_hostname }}
